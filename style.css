@@ -1,0 +1,20 @@
+.jumbotron{
+	color: rgb(154,154,154);
+	font-size: 
+	background-color: rgb(35,135,134);
+	text-align: center;
+	width: 100%;
+	height: 160px;
+	float: center;
+	padding-top: 55px;
+
+}
+.table-bordered{
+	width: 100%;
+	height: 263px;
+}
+/* bootstrap adds margins-we needed to override them using css */
+.col-lg-12{
+	margin: 0;
+	padding: 0;
+}
