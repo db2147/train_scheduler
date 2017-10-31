@@ -7,6 +7,7 @@
 	height: 160px;
 	float: center;
 	padding-top: 37px;
+	font-family: "intro rust g base 2 line regular";
 
 }
 .table-bordered{
@@ -20,7 +21,12 @@
 }
 #submitBtn{
 	background-color: rgb(15,112,130);
+	border-size: 10px;
 }
 .form-control{
 	background-color: rgb(195,189,177);
+}
+.container{
+	border-style: solid;
+	 
 }

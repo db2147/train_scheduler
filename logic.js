@@ -43,6 +43,7 @@
         $("#firsttraintime").val("");
         $("#frequency").val("");
     }
+    //calc next train
     database.ref().on("child_added", function(snapshot) {
         $("#trainInfo").append(`
             <tr>
