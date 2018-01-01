@@ -37,6 +37,7 @@
         clearForm();
 
     });
+        //this indicates that the value is nothing
     function clearForm() {
         $("#trainname").val("");
         $("#destination").val("");
@@ -75,6 +76,7 @@
         nextTrain = moment().add(tMinutesTillTrain, "minutes");
         nextTrain = moment(nextTrain).format("hh:mm A");
 
+        // use return to stop execution of a function and return the value of expression
         return [nextTrain, tMinutesTillTrain];
     };
  
