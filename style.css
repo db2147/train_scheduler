@@ -14,7 +14,7 @@
 	width: 100%;
 	height: 263px;
 }
-/* bootstrap adds margins-we needed to override them using css */
+ 
 .col-lg-12{
 	margin: 0;
 	padding: 0;
@@ -28,5 +28,5 @@
 }
 .container{
 	border-style: solid;
-	 
+	
 }

@@ -37,7 +37,7 @@
         clearForm();
 
     });
-        //this indicates that the value is nothing
+        //this clears the form after submitting data
     function clearForm() {
         $("#trainname").val("");
         $("#destination").val("");
